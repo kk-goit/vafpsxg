@@ -12,5 +12,11 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     -webkit-text-size-adjust: 100%;
+
+    --clr-black: #121417;
+    --clr-green: #4DC274;
+    --clr-light-green: #D4FDE1;
+    --clr-gray: #F3F5F6;
+    --clr-white: #FFFFFF;
+    --clr-green-linear: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
   }
-  
