@@ -1,25 +1,16 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
+/* global settings and variables */
+@import url('./root.css');
+/* header styles */
 @import url('./header.css');
-
-:root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
-
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
+/* section's styles */
+@import url('./sct-hero.css');
+@import url('./sct-about.css');
+@import url('./sct-lessons.css');
+@import url('./sct-proposal.css');
+@import url('./sct-teachers.css');
+@import url('./sct-application.css');
+@import url('./sct-review.css');
+/* footer styles */
+@import url('./footer.css');
+/* mobile menu styles */
+@import url('./mobile-menu.css');
