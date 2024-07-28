@@ -1,6 +1,7 @@
 :root {
   /* fonts */
-  --font-family: "Roboto", sans-serif;
+  --font-family: "Manrope", sans-serif;
+  --second-family: "Roboto", sans-serif;
 
   /* colors */
   --clr-black: #121417;
@@ -29,6 +30,7 @@
 
 body {
   font-family: var(--font-family);
+  font-weight: 700;
   color: var(--clr-black);
   background-color: var(--bg-global);
   min-width: 320px;
