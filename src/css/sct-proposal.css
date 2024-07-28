@@ -255,7 +255,8 @@
     color: var(--clr-white);
     background-color: var(--clr-green);
     border: 0;
-    transition: background-color var(--transition);;
+    transition: background-color var(--transition);
+    text-decoration: none;
 }
 
 @media (min-width: 768px) {
