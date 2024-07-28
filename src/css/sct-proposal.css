@@ -1,0 +1,63 @@
+.proposal-wrapper {
+    position: relative;
+    border-radius: 16px;
+    background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+    overflow: visible;
+    padding: 40px 20px;
+}
+
+/*region Header*/
+.proposal-header {
+    color: var(--clr-white);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 1.05;
+    margin-bottom: 65px;
+}
+
+.proposal-accent {
+    color: #bee8cc;
+}
+
+/*endregion Header*/
+
+/*region 3 cards*/
+.proposal-background-1 {
+    margin: 0 20px 64px 20px;
+    border-radius: 16px;
+    transform: rotate(9deg);
+    background-color: var(--clr-light-green);
+    overflow: visible;
+}
+
+.proposal-background-2 {
+    border-radius: 16px;
+    transform: rotate(-18deg);
+    background: #c4ebd1;
+}
+
+.proposal-face {
+    border-radius: 16px;
+    background-color: var(--clr-white);
+    transform: rotate(9deg);
+    padding: 40px 20px;
+}
+/*endregion 3 cards*/
+
+/*regin In card*/
+.proposal-list-header {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    color: var(--clr-black);
+}
+
+.proposal-item {
+    margin-bottom: 20px;
+}
+
+.proposal-icon {
+
+}
+/*endregion In card*/
