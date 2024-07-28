@@ -64,6 +64,11 @@ ul {
 
 p {
     margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: var(--clr-black-50);
 }
 
 img {
@@ -72,6 +77,22 @@ img {
 
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    margin-bottom: 16px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
 }
 
 /* main container */
