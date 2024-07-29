@@ -1,0 +1,71 @@
+.hero-content {
+    position: relative;
+    padding-top: 425px;
+    padding-bottom: 72px;
+    background-image: linear-gradient(357.37deg, rgba(0, 0, 0, 0.4) 39.23%, rgba(0, 0, 0, 0) 66.28%),
+        url(../images/hero-bg-m.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+@media only screen and (min-resolution: 192dpi) {
+    .hero-content {
+        background-image: linear-gradient(357.37deg, rgba(0, 0, 0, 0.4) 39.23%, rgba(0, 0, 0, 0) 66.28%),
+            url(../images/hero-bg-m@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 767px) and (min-resolution: 192dpi) {
+    .hero-content {
+        background-image: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+            url(../images/hero-bg-t@2x.jpg);
+    }
+}
+
+@media only screen and (min-width: 1157px) and (min-resolution: 192dpi) {
+    .hero-content {
+        background-image: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),
+            url(../images/hero-bg-d@2x.jpg);
+    }
+}
+
+.main-heading {
+    width: 88%;
+    margin: 0 auto;    
+    color: var(--clr-white);
+    font-size: 38px;
+    line-height: 1.05;
+}
+
+.main-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 88%;
+    margin: 0 auto;
+    height: 52px;
+    border-radius: 12px;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.71;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+.hero-arrow {
+   width: 38px;
+   height: 38px;
+   background: var(--clr-white);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%;
+   position: absolute;
+   bottom: 14px;
+   right: 14px;
+   fill: var(--clr-green);
+}
