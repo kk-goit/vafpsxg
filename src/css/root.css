@@ -64,6 +64,11 @@ ul {
 
 p {
     margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: var(--clr-black-50);
 }
 
 img {
@@ -74,12 +79,63 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
+h1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 112%;
+    letter-spacing: -0.02em;
+}
+
+h2 {
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+}
+
+button {
+    font-size: 14px;
+    line-height: 171%;
+}
+
+button:hover,
+button:focus,
+a:hover,
+a:focus {
+    outline: none;
+}
+
+section {
+    padding: 40px 0px;
+}
+
+@media screen and (min-width: 768px) {
+    section {
+        padding: 50px 0px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    section {
+        padding: 75px 0px;
+    }
+}
+
 /* main container */
 .container {
     min-width: 320px;
     max-width: 375px;
     padding: 0 20px;
     margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 320px) {
@@ -100,4 +156,15 @@ h1, h2, h3, h4, h5, h6, p {
         max-width: 1280px;
         padding: 0 64px;
     }
+}
+
+.btn {
+    border: none;
+    box-shadow: none;
+    border-radius: 12px;
+    margin: 0 auto;
+    min-width: 295px;
+    height: 52px;
+    background-color: var(--clr-green);
+    color: var(--clr-white);
 }
