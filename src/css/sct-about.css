@@ -1,0 +1,29 @@
+/* Common */
+.container {
+	max-width: 1024px;
+	margin: 0 auto;
+}
+
+.sct-title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 1.2;
+	letter-spacing: -0.02em;
+	text-align: center;
+	color: var(--black);
+}
+
+.title-decor::after {
+	content: "";
+	display: block;
+	width: 100%;
+	background-color: var(--primary);
+	height: 12px;
+}
+
+.sct-description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.67;
+	text-align: center;
+}
