@@ -10,6 +10,8 @@
     --clr-black-50: rgba(18, 20, 23, 0.5);
     --clr-black-linear: linear-gradient(114deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
     --clr-green: #4DC274;
+    --clr-green-active: #38AE5F;
+    --clr-green-accent: #BEE8CC;
     --clr-light-green: #D4FDE1;
     --clr-gray: #F3F5F6;
     --clr-white: #FFFFFF;
