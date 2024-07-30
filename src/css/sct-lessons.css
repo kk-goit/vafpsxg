@@ -1,28 +1,29 @@
 @media only screen and (min-width: 1280px) {
-  .sct-lessons .container {
-    padding: 0px 128px;
-  }
+    .sct-lessons .container {
+        padding: 0px 128px;
+    }
 }
 
 .lesson-title {
 }
 
-.lesson-highlight {}
+.lesson-highlight {
+}
 
 .lesson-description {
     margin-bottom: 40px;
 }
 
 @media only screen and (min-width: 768px) {
-  .lesson-description {
-    width: 665px;
-  }
+    .lesson-description {
+        width: 665px;
+    }
 }
 
 @media only screen and (min-width: 768px) {
-  .lesson-description {
-    margin-bottom: 64px;
-  }
+    .lesson-description {
+        margin-bottom: 64px;
+    }
 }
 
 .lesson-plan-list {
@@ -33,12 +34,12 @@
 }
 
 @media only screen and (min-width: 768px) {
-  .lesson-plan-list {
-    flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 32px;
-    row-gap: 32px;
-  }
+    .lesson-plan-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        column-gap: 32px;
+        row-gap: 32px;
+    }
 }
 
 .lesson-plan-item {
@@ -64,6 +65,21 @@
     }
 }
 
+.lesson-plan-item:hover *,
+.lesson-plan-item:focus * {
+    color: var(--clr-white);
+}
+
+.lesson-plan-item:hover .lesson-btn,
+.lesson-plan-item:focus .lesson-btn {
+    border: 1px solid var(--clr-white-40);
+    border-radius: 12px;
+}
+
+.lesson-plan-item:hover, .lesson-plan-item:focus {
+    background-color: var(--clr-green);
+}
+
 .lesson-plan-title {
     margin-bottom: 16px;
 }
@@ -74,25 +90,27 @@
     line-height: 112%;
     margin-bottom: 40px;
     letter-spacing: -0.02em;
-    color: var(----clr-black)
+    color: var(--clr-black)
 }
 
 @media only screen and (min-width: 1280px) {
-  .lesson-plan-price {
-    margin-bottom: 16px;
-  }
+    .lesson-plan-price {
+        margin-bottom: 16px;
+    }
 }
 
-.price {}
+.price {
+}
 
 .lesson-plan-description {
     margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
-  .lesson-plan-description {
-    margin-bottom: 32px;
-  }
+    .lesson-plan-description {
+        margin-bottom: 32px;
+    }
 }
 
-.lesson-btn {}
+.lesson-btn {
+}
