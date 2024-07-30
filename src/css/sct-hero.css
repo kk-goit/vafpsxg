@@ -58,9 +58,11 @@
     line-height: 1.71;
     font-weight: 700;
     margin-top: 40px;
+    transition: all var(--transition);
 }
 
-.main-button:active {
+.main-button:active,
+.main-button:hover {
     background-color: var(--clr-green-active);
 }
 
