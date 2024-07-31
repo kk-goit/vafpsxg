@@ -61,6 +61,12 @@ body {
     color: var(--clr-black);
     background-color: var(--bg-global);
     min-width: 320px;
+
+    /*  For better font rendering */
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: antialiased
 }
 
 ul {
