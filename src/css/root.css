@@ -99,6 +99,7 @@ h4 {
 button {
     font-size: 14px;
     line-height: 171%;
+    cursor: pointer;
 }
 
 button:hover,
