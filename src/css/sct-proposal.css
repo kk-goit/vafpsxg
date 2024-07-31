@@ -234,6 +234,7 @@
     font-size: 14px;
     line-height: 1.43;
     letter-spacing: -0.02em;
+    text-align: start;
 }
 
 @media (min-width: 768px) {

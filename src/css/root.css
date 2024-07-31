@@ -1,20 +1,25 @@
 :root {
     /* fonts */
-    --font-family: "Manrope", sans-serif;
-    --second-family: "Roboto", sans-serif;
+    --font-family: 'Manrope', sans-serif;
+    --second-family: 'Roboto', sans-serif;
 
     /* colors */
     --clr-black: #121417;
     --clr-black-10: rgba(18, 20, 23, 0.1);
     --clr-black-20: rgba(18, 20, 23, 0.2);
     --clr-black-50: rgba(18, 20, 23, 0.5);
-    --clr-black-linear: linear-gradient(114deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%);
-    --clr-green: #4DC274;
+    --clr-black-linear: linear-gradient(
+        114deg,
+        rgba(0, 0, 0, 0.4) 0%,
+        rgba(0, 0, 0, 0.4) 100%
+    );
+    --clr-green: #4dc274;
     --clr-green-active: #38AE5F;
     --clr-green-accent: #BEE8CC;
-    --clr-light-green: #D4FDE1;
-    --clr-gray: #F3F5F6;
-    --clr-white: #FFFFFF;
+    --clr-green-10: rgba(77, 194, 116, 0.1);
+    --clr-light-green: #d4fde1;
+    --clr-gray: #f3f5f6;
+    --clr-white: #ffffff;
     --clr-white-10: rgba(255, 255, 255, 0.1);
     --clr-white-40: rgba(255, 255, 255, 0.4);
     --clr-white-60: rgba(255, 255, 255, 0.6);
@@ -34,6 +39,9 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
 .visually-hidden {
     position: absolute;
@@ -55,7 +63,6 @@ body {
     color: var(--clr-black);
     background-color: var(--bg-global);
     min-width: 320px;
-
 }
 
 ul {
@@ -77,7 +84,13 @@ img {
     display: block;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 0;
 }
 
