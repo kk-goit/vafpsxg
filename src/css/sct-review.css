@@ -1,0 +1,108 @@
+@media only screen and (min-width: 1280px) {
+    .sct-reviews .container {
+        padding: 0px 128px;
+    }
+}
+
+.reviews-description {
+    margin-bottom: 40px;
+    transition: color var(--transition);
+}
+
+.reviews-highlight {
+    position: relative;
+}
+
+.reviews-highlight::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    width: 100%;
+    height: 20px;
+    background-color: var(--clr-green-underline);
+    border-radius: 8px;
+    z-index: -10;
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-description {
+        width: 647px;
+        margin-bottom: 64px;
+        font-size: 18px;
+    }
+}
+
+.reviews-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.reviews-item {
+    background-color: var(--clr-gray);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.review-wrapper {
+    background-color: var(--clr-green);
+    border-radius: 8px;
+    display: flex;
+    padding: 14px;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.review-description {
+    margin: 20px 14px;
+    text-align: left;
+}
+
+.reviewer-portret {
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.reviewer-name {
+    color: var(--clr-white);
+}
+
+.reviewer-description {
+    font-size: 12px;
+    color: var(--clr-white);
+    text-align: left;
+}
+
+@media only screen and (min-width: 768px) {
+    .reviews-list {
+        flex-direction: row;
+    }
+    .reviews-item {
+        width: calc((100% - 1 * 32px) / 2);
+        border-radius: 30px;
+        padding: 32px 16px;
+        height: 326px;
+    }
+    .review-description {
+        margin: 32px 16px auto 16px;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .reviews-list .reviews-item:nth-child(2),
+    .reviews-list .reviews-item:nth-child(3) {
+        display: none;
+    }
+    .reviews-item {
+        width: calc((100% - 1 * 32px) / 2);
+    }
+}
+
+@media only screen and (max-width: 1279px) {
+    .reviews-list .reviews-item:nth-child(3) {
+        display: none;
+    }
+}
