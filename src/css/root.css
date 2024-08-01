@@ -15,6 +15,7 @@
     );
     --clr-green: #4dc274;
     --clr-green-10: rgba(77, 194, 116, 0.1);
+    --clr-green-dark: #38ae5f;
     --clr-green-underline: #bee8cc;
     --clr-light-green: #d4fde1;
     --clr-gray: #f3f5f6;
@@ -60,7 +61,7 @@ body {
     font-family: var(--font-family);
     font-weight: 700;
     color: var(--clr-black);
-    background-color: var(--bg-global);
+    background-color: var(--clr-white);
     min-width: 320px;
 
     /*  For better font rendering */
@@ -187,6 +188,10 @@ section {
     height: 52px;
     background-color: var(--clr-green);
     color: var(--clr-white);
+    cursor: pointer;
+    font-weight: 700;
+    line-height: 171%;
+    transition: background-color var(--transition)
 }
 
 /* #region Section title */
@@ -261,5 +266,11 @@ section {
 @media only screen and (min-width: 768px) {
     .btn {
         height: 60px;
+        font-size: 18px;
+        line-height: 156%;
     }
+}
+
+.btn:active, .btn:hover {
+    background-color: var(--clr-green-dark);
 }
