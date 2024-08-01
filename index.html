@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
     
     <script type="module" crossorigin src="/vafpsxg/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vafpsxg/assets/index-4dfa707c.css">
+    <link rel="stylesheet" href="/vafpsxg/assets/index-b369c5cb.css">
   </head>
   <body>
     <header class="page-header">
@@ -247,7 +247,66 @@
 </section>
       <section id="application" class="sct-applct" >
     <div class="container">
-        <p>Leave an application section be there</p>
+    <h2 class="application-title">Leave an <span class="highlight">application</span></h2>
+    <p class="application-description">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+    </p>
+    <div class="application-wrapper">
+        <div class="desk-img-box">
+            <div class="img-box-description">
+                <h3 class="img-box-heading">1000</h3>
+                <p class="img-box-text">
+                    of our online English language lessons! This journey has
+                    been full of discovery, growth and unforgettable
+                    moments, and we are happy to share this joyful event
+                    with you.
+                </p>
+            </div>
+        </div>
+        <form class="application-form">
+            <input class="application-form-input" type="text" name="name" placeholder="Name" pattern="[a-z]{1,15}"
+                title="4 to 8 lowercase letters" required />
+    
+            <input class="application-form-input" type="email" name="email" placeholder="Email" pattern="(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])
+    (?=.*[a-z]).*" title="asmith@mactec.com | foo12@foo.edu | bob.smith@gmail.com" required />
+    
+            <input class="application-form-input" type="tel" name="tel" placeholder="Phone"
+                pattern="^\+?(?:[0-9]??).{5,14}[0-9]$" title="(055) 555-5555 | 555.555.5555 | 555-5555" required />
+    
+            <textarea class="application-form-area" placeholder="Comment" pattern="([0-9][A-Z]).{5,}"
+                title="4 to 8 lowercase letters"></textarea>
+    
+            <p class="application-form-text">Choose a teacher</p>
+            <div class="radio-wrapper">
+                <div class="form-field">
+                    <input type="radio" class="application-form-radio" name="teacher" value="Maria" id="Maria" />
+                    <label class="application-form-label" for="Maria">Maria</label>
+                </div>
+                <div class="form-field">
+                    <input type="radio" class="application-form-radio" name="teacher" value="Artem" id="Artem" />
+                    <label class="application-form-label" for="Artem">Artem</label>
+                </div>
+                <div class="form-field">
+                    <input type="radio" class="application-form-radio" name="teacher" value="Ilona" id="Ilona" />
+                    <label class="application-form-label" for="Ilona">Ilona</label>
+                </div>
+                <div class="form-field">
+                    <input type="radio" class="application-form-radio" name="teacher" value="Volodymyr" id="Volodymyr" />
+                    <label class="application-form-label" for="Volodymyr">Volodymyr</label>
+                </div>
+            </div>
+            <button class="btn application-form-btn" type="submit">
+                Send
+            </button>
+            <p class="application-form-paragraph">
+                By clicking on “Send” button, you agree to our
+                <a href="#" class="application-form-privacy">Privacy Policy,</a> and allow Promodo to use this
+                information for marketing
+                purposes.
+            </p>
+        </form>
+    </div>
     </div>
 </section>
       <section id="reviews" class="sct-reviews">
