@@ -1,1 +1,1 @@
-{"version":3,"file":"commonHelpers.js","sources":["../src/main.js"],"sourcesContent":["export function scrollToApplication() {\n    document.getElementById('application').scrollIntoView({ behavior: 'smooth' });\n}\n\nwindow.scrollToApplication = scrollToApplication;"],"names":["scrollToApplication"],"mappings":"ssBAAO,SAASA,GAAsB,CAClC,SAAS,eAAe,aAAa,EAAE,eAAe,CAAE,SAAU,QAAQ,CAAE,CAChF,CAEA,OAAO,oBAAsBA"}
+{"version":3,"file":"commonHelpers.js","sources":[],"sourcesContent":[],"names":[],"mappings":""}
