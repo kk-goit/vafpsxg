@@ -36,6 +36,7 @@
     --clr-green: #4dc274;
     --clr-green-active: #38AE5F;
     --clr-green-10: rgba(77, 194, 116, 0.1);
+    --clr-green-dark: #38ae5f;
     --clr-light-green: #d4fde1;
     --clr-gray: var(--grey);
     --clr-white: rgb(var(--white));
@@ -297,3 +298,15 @@ section {
     }
 }
 /* #endregion */
+
+@media only screen and (min-width: 768px) {
+    .btn {
+        height: 60px;
+        font-size: 18px;
+        line-height: 156%;
+    }
+}
+
+.btn:active, .btn:hover {
+    background-color: var(--clr-green-dark);
+}
