@@ -57,7 +57,7 @@
         font-size: 14px;
         font-weight: 400;
         margin-top: 16px;
-        width: 334px;
+        max-width: 334px;
         height: 96px;
 
         margin: 0 auto 40px auto;
