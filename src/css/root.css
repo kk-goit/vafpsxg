@@ -39,7 +39,7 @@
     --clr-light-green: #d4fde1;
     --clr-gray: var(--grey);
     --clr-white: rgb(var(--white));
-    --clr-white-10: rgba(13, 12, 12, 0.1);
+    --clr-white-10: rgba(var(--white), 0.1);
     --clr-white-40: rgba(var(--white), 0.4);
     --clr-white-60: rgba(var(--white), 0.6);
     --clr-white-70: rgba(var(--white), 0.7);
