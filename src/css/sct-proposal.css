@@ -1,7 +1,7 @@
 .proposal-wrapper {
     position: relative;
     border-radius: 16px;
-    background: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
+    background: var(--clr-green-linear);
     overflow: hidden;
     padding: 40px 20px;
 }
@@ -46,7 +46,7 @@
 }
 
 .proposal-accent {
-    color: #bee8cc;
+    color: var(--clr-green-accent);
 }
 
 /*endregion Header*/
@@ -84,7 +84,7 @@
 .proposal-background-2 {
     border-radius: 16px;
     transform: rotate(-18deg);
-    background: #c4ebd1;
+    background: var(--clr-white-50);
 }
 
 @media (min-width: 768px) {
@@ -278,12 +278,12 @@
 }
 
 .proposal-btn:active {
-    background-color: #38AE5F;
+    background-color: var(--clr-green-active);
 }
 
 @media (min-width: 1280px) {
     .proposal-btn:hover, .proposal-btn:hover  {
-        background-color: #38AE5F;
+        background-color: var(--clr-green-active);
     }
 }
 

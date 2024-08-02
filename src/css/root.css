@@ -23,6 +23,7 @@
     --clr-white: #ffffff;
     --clr-white-10: rgba(255, 255, 255, 0.1);
     --clr-white-40: rgba(255, 255, 255, 0.4);
+    --clr-white-50: rgba(255, 255, 255, 0.5);
     --clr-white-60: rgba(255, 255, 255, 0.6);
     --clr-white-70: rgba(255, 255, 255, 0.7);
     --clr-green-linear: linear-gradient(80deg, #4dc274 0%, #bee8cc 100%);
@@ -68,7 +69,7 @@ body {
     /*  For better font rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-smooth: antialiased;
+    /* font-smooth: antialiased; */
 }
 
 ul, ol {
@@ -237,7 +238,7 @@ section {
     content: "";
     width: 100%;
     height: 12px;
-    background: #BEE8CC;
+    background: var(--clr-green-accent);
     border-radius: 8px;
     z-index: -1;
     position: absolute;
