@@ -79,10 +79,8 @@
         width: 150px;
         height: 150px;
         object-fit: cover;
-        margin-top: 20px;
-        margin-bottom: 16px;
         justify-content: center;
-        margin: 20px auto;
+        margin: 0 auto;
         justify-content: center;
         
 
@@ -91,7 +89,6 @@
 
     .team-info {
         padding: 16px 10px;
-        width: 232px;
         height: 152px;
     }
 
@@ -193,16 +190,12 @@
         width: 150px;
         height: 150px;
         object-fit: cover;
-        margin-bottom: 16px;
-
         margin: 0 auto;
-
         display: block;
     }
 
     .team-info {
         gap: 8px;
-        width: 272px;
         height: 131px;
         text-align: center;
     }
@@ -302,15 +295,11 @@
         width: 150px;
         height: 150px;
         object-fit: cover;
-        margin-top: 20px;
-
-        margin: 0 auto 16px auto;
-
+        margin: 0 auto;
         display: block;
     }
     .team-info {
         gap: 8px;
-        width: 272px;
         height: 131px;
         text-align: center;
     }
