@@ -34,7 +34,7 @@
 }
 
 .mobile-menu-icon {
-    fill: var(--clr-black);
+    stroke: var(--clr-black);
     width: 32px;
     height: 32px;
 }
@@ -131,7 +131,7 @@
     .logo {
         margin-right: 122px;
     }
-    .nav-wrapper {
-        padding: 0 128px;
+    .nav-wrapper.container     {
+        flex-direction: row;
     }
 }

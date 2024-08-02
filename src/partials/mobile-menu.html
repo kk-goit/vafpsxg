@@ -1,9 +1,10 @@
-<div class="backdrop" data-mobile>
+<div class="backdrop" id="the_menu" data-mobile onclick="closeMenu(event)">
     <div class="mobile-menu" id="mobile-menu">
         <button
             class="mobile-menu-close-btn"
             type="button"
             aria-label="Mobile menu close button"
+            onclick='document.getElementById("the_menu").classList.remove("is-open")'
             data-modal-close
         >
             <svg class="mobile-menu-close-icon">
@@ -12,19 +13,19 @@
         </button>
         <ul class="mobile-menu-list">
             <li class="mobile-menu-item">
-                <a class="mobile-menu-link" href="#about_us">About us</a>
+                <a class="mobile-menu-link" href="#about_us" onclick="closeMenu(event)">About us</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="mobile-menu-link" href="#lessons">Our lessons</a>
+                <a class="mobile-menu-link" href="#lessons" onclick="closeMenu(event)">Our lessons</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="mobile-menu-link" href="#teachers">Teachers</a>
+                <a class="mobile-menu-link" href="#teachers" onclick="closeMenu(event)">Teachers</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="mobile-menu-link" href="#reviews">Reviews</a>
+                <a class="mobile-menu-link" href="#reviews" onclick="closeMenu(event)">Reviews</a>
             </li>
             <li class="mobile-menu-item">
-                <a class="mobile-menu-link" href="#application">Contact us</a>
+                <a class="mobile-menu-link" href="#application" onclick="closeMenu(event)">Contact us</a>
             </li>
         </ul>
         <ul class="mobile-menu-socials">
@@ -36,7 +37,7 @@
                     class="social-list-link"
                     aria-label="Link to Facebook site"
                 >
-                    <svg class="mobile-social-list-icon" alt="Facebook icon">
+                    <svg class="mobile-social-list-icon">
                         <use href="./images/icons.svg#icon-facebook"></use>
                     </svg>
                 </a>
@@ -49,7 +50,7 @@
                     class="social-list-link"
                     aria-label="Link to Instagram site"
                 >
-                    <svg class="mobile-social-list-icon" alt="Instagram icon">
+                    <svg class="mobile-social-list-icon">
                         <use href="./images/icons.svg#icon-instagram"></use>
                     </svg>
                 </a>
@@ -62,7 +63,7 @@
                     class="social-list-link"
                     aria-label="Link to YouTube site"
                 >
-                    <svg class="mobile-social-list-icon" alt="YouTube icon">
+                    <svg class="mobile-social-list-icon">
                         <use href="./images/icons.svg#icon-youtube"></use>
                     </svg>
                 </a>
