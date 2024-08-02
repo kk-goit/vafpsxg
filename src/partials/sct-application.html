@@ -18,17 +18,20 @@
             </div>
         </div>
         <form class="application-form">
-            <input class="application-form-input" type="text" name="name" placeholder="Name" pattern="[a-z]{1,15}"
-                title="4 to 8 lowercase letters" required />
-    
-            <input class="application-form-input" type="email" name="email" placeholder="Email" pattern="(?=^.{8,}$)((?=.*d)|(?=.*W+))(?![.n])(?=.*[A-Z])
-    (?=.*[a-z]).*" title="asmith@mactec.com | foo12@foo.edu | bob.smith@gmail.com" required />
-    
-            <input class="application-form-input" type="tel" name="tel" placeholder="Phone"
-                pattern="^\+?(?:[0-9]??).{5,14}[0-9]$" title="(055) 555-5555 | 555.555.5555 | 555-5555" required />
-    
-            <textarea class="application-form-area" placeholder="Comment"
-                title="4 to 8 lowercase letters"></textarea>
+        <input class="application-form-input" type="text" name="name" placeholder="Name" pattern="^[a-zA-Z\s'-]{2,50}$"
+            minlength="2" maxlength="50"
+            title="Please enter a valid name (letters, spaces, hyphens, and apostrophes, numbers only)" required />
+        
+        <input class="application-form-input" type="email" name="email" placeholder="Email"
+            pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$"
+            title="Please enter a valid email address (e.g., username@domain.com)" required />
+        
+        <input class="application-form-input" type="tel" name="tel" placeholder="Phone" pattern="^[0-9\-]{5,14}$"
+            title="Phone number should be between 5 and 14 characters, using only numbers and hyphens. 0555555555 | 055-555-5555 | 555-5555"
+            required />
+        
+        <textarea class="application-form-area" placeholder="Comment" pattern="^[a-zA-Z\s'-]{5,}$" minlength="2"
+            title="Please enter a comment with at least one digit or letter and a minimum length of 2 characters."></textarea>
     
             <p class="application-form-text">Choose a teacher</p>
             <div class="radio-wrapper">
