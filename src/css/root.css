@@ -13,7 +13,8 @@
         --white: 255, 255, 255;
         --black: 18, 20, 23;
         --grey: #f3f5f6;
-        --clr-green-underline: #bee8cc; 
+        --clr-green-underline: #bee8cc;
+        --clr-green-accent: var(--clr-green-underline)
     }
 }
 
@@ -34,7 +35,6 @@
     );
     --clr-green: #4dc274;
     --clr-green-active: #38AE5F;
-    --clr-green-accent: #BEE8CC;
     --clr-green-10: rgba(77, 194, 116, 0.1);
     --clr-light-green: #d4fde1;
     --clr-gray: var(--grey);
