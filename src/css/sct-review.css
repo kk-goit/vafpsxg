@@ -51,12 +51,11 @@
     border-radius: 8px;
     display: flex;
     padding: 14px;
-    margin-bottom: 32px;
     align-items: center;
 }
 
 .review-description {
-    margin: 20px 14px;
+    padding: 20px 14px;
     text-align: left;
 }
 
@@ -86,7 +85,7 @@
         height: 326px;
     }
     .review-description {
-        margin: 32px 16px auto 16px;
+        padding: 32px 16px auto 16px;
         font-size: 16px;
     }
 }
@@ -97,7 +96,7 @@
         display: none;
     }
     .reviews-item {
-        width: calc((100% - 1 * 32px) / 2);
+        width: 100%;
     }
 }
 
