@@ -68,7 +68,7 @@ body {
     /*  For better font rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-smooth: antialiased
+    font-smooth: antialiased;
 }
 
 ul, ol {
