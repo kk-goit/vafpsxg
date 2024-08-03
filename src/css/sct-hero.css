@@ -3,6 +3,7 @@
 }
 
 .hero-content {
+    max-width: 335px;
     position: relative;
     padding-top: 425px;
     padding-bottom: 72px;
@@ -48,6 +49,7 @@
 }
 
 .main-button {
+    max-width: 295px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,8 +95,8 @@
 @media screen and (min-width: 768px) {
     .hero-content {
         border-radius: 30px;
-        padding-top: 260px;
-        padding-bottom: 295px;
+        padding-top: 164px;
+        padding-bottom: 163px;
         min-width: 704px;
         padding-left: 32px;
         background-image: linear-gradient(95.97deg, rgba(0, 0, 0, 0.4) 36.36%, rgba(0, 0, 0, 0) 51.43%),

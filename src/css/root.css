@@ -131,7 +131,7 @@ h2 {
     margin-bottom: 16px;
 }
 
-h4 {
+h3 {
     font-weight: 700;
     font-size: 20px;
     line-height: 120%;
@@ -163,7 +163,7 @@ section {
 
 @media screen and (min-width: 1280px) {
     section {
-        padding: 48px 0px;
+        padding: 75px 0px;
     }
 }
 
@@ -224,10 +224,6 @@ section {
         font-size: 18px;
         line-height: 156%;
     }
-}
-
-.btn:active, .btn:hover {
-    background-color: var(--clr-green-active);
 }
 
 /* #region Section title */

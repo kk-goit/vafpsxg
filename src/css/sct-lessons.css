@@ -67,6 +67,8 @@
     border: 1px solid var(--clr-white-40);
     border-radius: 12px;
     transition: all var(--transition);
+    background-color: var(--clr-white);
+    color: var(--clr-green-active)
 }
 
 .lesson-plan-item:hover, .lesson-plan-item:focus {
