@@ -124,6 +124,7 @@
         display: flex;
         flex-direction: row;        
         flex-wrap: wrap;
+        justify-content: center;
         gap: 32px;
     }
 
@@ -176,12 +177,12 @@
     .team-member {
         background-color: var(--clr-white);
 
-        width: 232px;
+        width: 272px;
         height: 318px;
         text-align: center;
 
         
-        width: calc((100% - 32px)/2);
+       
     }
 
     .team-member img {
@@ -211,8 +212,8 @@
     }
 
     .team-position {
-        width: 335px;
-        height: 103px;
+        width: 100%;
+        height: auto;
         font-size: 16px;
         line-height: 1.5;
         font-weight: 400;
