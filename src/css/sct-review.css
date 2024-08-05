@@ -50,6 +50,7 @@
     background-color: var(--clr-gray);
     border-radius: 16px;
     padding: 20px;
+    max-width: 335px;
 }
 
 .review-wrapper {
@@ -102,9 +103,6 @@
     .reviews-list .reviews-item:nth-child(2),
     .reviews-list .reviews-item:nth-child(3) {
         display: none;
-    }
-    .reviews-item {
-        width: 100%;
     }
 }
 
